@@ -1,0 +1,22 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "Practicing sum , a record so that i have this code in future",
+  "main": "basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itstheanurag/practiceDSA.git"
+  },
+  "keywords": [
+    "DSA"
+  ],
+  "author": "Gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itstheanurag/practiceDSA/issues"
+  },
+  "homepage": "https://github.com/itstheanurag/practiceDSA#readme"
+}
