@@ -45,18 +45,3 @@ let result = totalWindowFormed([1,3,-1,3,5,3,6,7], 3)
 console.log(result)
 */
 
-function maxConsecutiveSum(arr, k){
-    let maxSum = 0
-
-    for(let i=0;i<arr.length -k;i++){
-        let cursum = arr[i] + arr[i+1]
-
-        if(cursum > maxSum){
-            maxSum = cursum
-        }
-    }
-    return maxSum
-}
-
-let res = maxConsecutiveSum([4,7,23,17,9,33],4)
-console.log(res)

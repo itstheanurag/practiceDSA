@@ -40,5 +40,5 @@ function mergeSort(arr){
     return merge(left,right)
 }
 
-let res = mergeSort([1,95,345,6,2,548,658,57,-5])
+let res = mergeSort([2,0,2,1,1,0])
 console.log(res)
