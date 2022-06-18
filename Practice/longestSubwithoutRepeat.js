@@ -23,5 +23,5 @@ var lengthOfLongestSubstring = function(s) {
     return maxLength
 };
 
-let res = lengthOfLongestSubstring("abcabcbb")
+let res = lengthOfLongestSubstring("abscgdjhftylu")
 console.log(res)

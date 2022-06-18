@@ -1,6 +1,6 @@
 
 
-var threeSum = function(nums) {
+var threeSum2 = function(nums) {
     nums.sort((a,b)=>{return a-b})
     let result = []
     for(let i=0;i<nums.length; i++){
@@ -27,8 +27,6 @@ var threeSum = function(nums) {
     return result
 };
 
-let res = threeSum([-1,0,1,2,-1,-4])
-console.log(res)
 
 
 
@@ -36,9 +34,7 @@ console.log(res)
 
 var threeSum = function(nums){
     nums.sort((a, b) => a - b)
-    
     const res = []
-    
     for (let i = 0; i < nums.length - 1; i++) {
         if (i > 0 && nums[i - 1] === nums[i]) {
             continue
@@ -67,3 +63,6 @@ var threeSum = function(nums){
     
     return res
 };
+
+let res = threeSum([-1,0,1,2,-1,-4])
+console.log(res)

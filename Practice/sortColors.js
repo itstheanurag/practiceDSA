@@ -19,8 +19,6 @@ var sortColors = function(nums) {
 };
    
 
-
-
    let nums = [2,0,2,1,1,0]
    let result = sortColors(nums)
    console.log(result)
