@@ -41,5 +41,5 @@ function sumWithWhile(arr,k){
     return maxSum
 }
 
-let ans = sumWithWhile([1,2,4,5,2,7,8,9,1], 2)
+let ans = sumWithWhile([1,2,4,5,2,7,8,9,1], 3)
 console.log(ans)

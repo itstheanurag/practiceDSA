@@ -4,7 +4,6 @@ var lengthOfLongestSubstring = function(s) {
     if(!s ||s.length===0){
         return 0
     }
-    
     let end = 0
     let start = 0
     let maxLength = 0
