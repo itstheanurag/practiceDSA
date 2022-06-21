@@ -10,7 +10,7 @@ var isValidSudoku = function(board) {
     }
     
     for(let i=0;i<board.length;i++){
-        for(let j=0;i<board[i].length; j++){
+        for(let j=0;j<board[i].length; j++){
             let cell = board[i][j]
             if(cell == '.') continue;
             let boxNums = 3*Math.floor(i/3)+ Math.floor(j/3)
