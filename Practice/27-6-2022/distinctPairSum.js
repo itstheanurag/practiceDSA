@@ -17,3 +17,23 @@ function countPairs(arr,target) {
     return indexArr.length/2
 }
 console.log(countPairs([2,0,5,9,13,4,8,3],13))  //ans:3
+
+// sumDistintPair
+
+function sumDistintPair(arr, sum) {
+    const elemSet = new Set();
+    const seenSet = new Set();
+  
+    let count = 0;
+    for (let currValue of arr) {
+      const nextValue = sum - currValue;
+      if (elemSet.has(nextValue) && !seenSet.has(currValue)) {
+        count++;
+        seenSet.add(nextValue);
+        seenSet.add(currValue);
+      }
+      elemSet.add(currValue);
+    }
+    return count;
+  }
+  console.log(sumDistintPair([1, 5, 1, 5], 6));
