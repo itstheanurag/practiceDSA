@@ -28,8 +28,6 @@ function merge(arr1, arr2) {
     return result
 }
 
-
-
 //merge sort optimized 
 
 function mergeSort(arr) {

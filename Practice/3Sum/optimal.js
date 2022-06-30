@@ -40,9 +40,9 @@ var threeSum = function (nums) {
             continue
         }
 
-        let num = nums[i] // -1
-        let start = i + 1 // 2
-        let end = nums.length - 1 // 6
+        let num = nums[i] 
+        let start = i + 1 
+        let end = nums.length - 1 
 
         while (start < end) {
             const curSum = num + nums[start] + nums[end]
