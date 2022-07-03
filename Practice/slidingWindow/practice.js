@@ -16,7 +16,7 @@ function maxSum(arr, k){
     return maxSum
 }
 
-let res = maxSum([2,3,5,6,7,3,8,9,10], 3)
+let res = maxSum([2,3,5,16,97,3,8,9,10], 3)
 console.log(res)
 
 

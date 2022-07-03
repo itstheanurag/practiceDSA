@@ -23,7 +23,7 @@ console.log(result)
 
 
 
-/*
+
 function totalWindowFormed(arr,k){
     let n = arr.length
     let result =  []
@@ -43,5 +43,5 @@ function totalWindowFormed(arr,k){
 
 let result = totalWindowFormed([1,3,-1,3,5,3,6,7], 3)
 console.log(result)
-*/
+
 
